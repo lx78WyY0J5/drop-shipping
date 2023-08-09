@@ -29,20 +29,20 @@ async function custom_pages_include() {
 }
 
 async function include_all() {
-    await include_css("/styles/variables.css");
-    await include_css("/styles/user-agent.css");
-    await include_script("/scripts/theme.js");
-    await include_css("/styles/text.css");
-    await include_css("/styles/body.css");
+    await include_css("./styles/variables.css");
+    await include_css("./styles/user-agent.css");
+    await include_script("./scripts/theme.js");
+    await include_css("./styles/text.css");
+    await include_css("./styles/body.css");
 
-    await include_css("/styles/header.css");
-    await include("/contents/header.html", "body");
+    await include_css("./styles/header.css");
+    await include("./contents/header.html", "body");
 
-    await include_css("/styles/content.css");
-    await include("/contents/content.html", "body");
+    await include_css("./styles/content.css");
+    await include("./contents/content.html", "body");
 
-    await include_css("/styles/footer.css");
-    await include("/contents/footer.html", "body", false);
+    await include_css("./styles/footer.css");
+    await include("./contents/footer.html", "body", false);
 }
 
 async function include_multiple(name, area) {
