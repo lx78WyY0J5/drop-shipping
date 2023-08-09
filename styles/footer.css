@@ -1,0 +1,34 @@
+#footer {
+    background-color: rgb(95, 95, 95);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-top: solid white;
+
+    display: inline-flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    width: 100vw;
+
+    position: absolute;
+    bottom: 0;
+}
+
+#footer>div>h1 {
+    color: lightgray;
+}
+
+#footer>div>a {
+    color: white;
+}
+
+#footer>:last-child>img {
+    width: 64px;
+}
+
+#footer>div>a>img {
+    width: 32px;
+    transform: translateY(30%);
+    padding-right: 6px;
+}
