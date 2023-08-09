@@ -1,8 +1,7 @@
 #footer {
-    background-color: rgb(95, 95, 95);
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    border-top: solid white;
+    border-top: solid gray;
 
     display: inline-flex;
     align-content: center;
@@ -31,4 +30,13 @@
     width: 32px;
     transform: translateY(30%);
     padding-right: 6px;
+}
+
+#footer>div>p,
+#footer>div>div>p {
+    color: lightgray;
+}
+
+#footer>div>div>p>a {
+    color: gray;
 }

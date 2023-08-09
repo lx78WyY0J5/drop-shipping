@@ -1,9 +1,8 @@
 #header {
     width: 100vw;
-    background-color: #5f5f5f;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    border-bottom: solid white;
+    border-bottom: solid gray;
 }
 
 #header>:first-child {
